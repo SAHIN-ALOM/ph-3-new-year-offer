@@ -1,0 +1,105 @@
+@media screen and (max-width: 576px){
+  main {
+    width: 95%;
+    margin: 0 auto;
+}
+ /* header banner style */
+ .header-container{
+  width: 90%;
+  margin-top: 20px;
+ }
+ .header-content{
+  width: 90%;
+ }
+ .header-content h1{
+  font-size: 3rem;
+  line-height: 4rem;
+ }
+ /* discount-section */
+ .discount-section{
+  width: 100%;
+ }
+ .discount-content{
+  padding: 5px;
+ }
+ /* midnight styles */
+ .midnight-section{
+  padding-top: 40px;
+  padding-bottom: 40px;
+ }
+ .midnight-container{
+  flex-direction: column;
+ }
+ .midnight-column-1{
+   width: 100%;
+   text-align: center;
+   gap: 20px;
+
+ }
+ .midnight-column-1 h1 {
+  font-size: 3.5rem;
+  line-height: 4rem;
+  letter-spacing: 0.5rem;
+ }
+ .midnight-column-2 {
+  width: 90%;
+ }
+ /* schedule section styles start */
+ .schedule-container h3 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 44px;
+ }
+ /* Surpise section styles */
+ .surpise-container {
+  flex-direction: column;
+  text-align: center;
+
+ }
+ .surpise-column{
+  width: 100%;
+  gap: 10px;
+ }
+ /* Holiday section start */
+ .holiday-section-container {
+  margin-top: 0px;
+  margin-bottom: 0px;
+ }
+ .holiday-contents{
+  margin-bottom:50px;
+ }
+ .holiday-contents h1 {
+  font-size: 4rem;
+  font-weight: 700;
+ }
+ .holiday-images {
+  max-height: auto;
+  margin-bottom: -80px;
+ }
+ .hday-gift {
+  width: 100%;
+  top: 220px;
+  right: 30px;
+ }
+ .hday-gift img {
+  width: 80%;
+  /* height: 100%; */
+ }
+ .hday-discount {
+  right: 0px;
+  bottom: 280px;
+ }
+ .hday-discount img {
+  width: 220px;
+ }
+ .hday-rectangle {
+  bottom: 100px;
+ }
+ /* product portfolio styles */
+ .portfolio-images-container{
+  grid-template-columns: repeat(1, 1fr);
+ }
+
+ /* -------The End--------- */
+
+}
